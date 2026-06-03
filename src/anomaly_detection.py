@@ -15,9 +15,9 @@ def run_anomaly_detection(df):
 
         anomaly_features.extend([
 
-            f"{col}_mean_60",
-            f"{col}_std_60",
-            f"{col}_max_60",
+            f"{col}_mean_10",
+            f"{col}_std_10",
+            f"{col}_max_10",
             f"{col}_delta"
         ])
 

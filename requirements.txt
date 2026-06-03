@@ -1,7 +1,7 @@
-numpy
+numpy==1.26.4 
 pandas
 scikit-learn
-xgboost
-shap
+xgboost==2.0.3
+shap==0.44.1
 matplotlib
 pulp
